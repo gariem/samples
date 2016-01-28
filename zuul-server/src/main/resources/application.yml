@@ -44,6 +44,5 @@ eureka:
       default: ${APPLICATION_DOMAIN:${DOMAIN:defaultZone}}
 
 logging:
-  levels:
-    org.springframework.boot.env.PropertySourcesLoader: INFO
-    org.springframework.web: INFO
+  level:
+    org.springframework.security: DEBUG
