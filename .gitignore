@@ -1,0 +1,15 @@
+resource-server/.idea/
+resource-server/.gradle/
+resource-server/*.bat
+resource-server/build/
+resource-server/*.iml
+resource-server/*.ipr
+resource-server/*.iws
+
+zuul-server/.idea/
+zuul-server/.gradle/
+zuul-server/*.bat
+zuul-server/build/
+zuul-server/*.iml
+zuul-server/*.ipr
+zuul-server/*.iws

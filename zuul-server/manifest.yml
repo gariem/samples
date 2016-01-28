@@ -1,0 +1,12 @@
+---
+applications:
+- name: testzuul
+  host: testzuul
+  instances: 1
+  memory: 1024M
+  disk_quota: 1024M
+  path: ./build/libs/zuul-server-1.0-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  services:
+    - config-server
+    - service-registry
