@@ -15,9 +15,12 @@
  */
 package com.myorg.test;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.oauth2.resource.AuthoritiesExtractor;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.UserInfoTokenServices;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
@@ -27,6 +30,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.oauth2.client.OAuth2ClientContext;
 import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter;
@@ -76,6 +80,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
     public Map<String, String> user(Principal principal) {
         Map<String, String> map = new LinkedHashMap<>();
         map.put("name", principal.getName());
+        map.put("email", "raphsoft@gmail.com");
         return map;
     }
 
@@ -101,8 +106,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 
     @Configuration
     @EnableResourceServer
-    protected static class ResourceServerConfiguration
-            extends ResourceServerConfigurerAdapter {
+    protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
         @Override
         public void configure(HttpSecurity http) throws Exception {
             // @formatter:off
@@ -118,8 +122,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public FilterRegistrationBean oauth2ClientFilterRegistration(
-            OAuth2ClientContextFilter filter) {
+    public FilterRegistrationBean oauth2ClientFilterRegistration(OAuth2ClientContextFilter filter) {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(filter);
         registration.setOrder(-100);
@@ -141,15 +144,19 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
     }
 
     private Filter ssoFilter(ClientResources client, String path) {
-        OAuth2ClientAuthenticationProcessingFilter facebookFilter = new OAuth2ClientAuthenticationProcessingFilter(
-                path);
-        OAuth2RestTemplate facebookTemplate = new OAuth2RestTemplate(client.getClient(),
-                oauth2ClientContext);
+        OAuth2ClientAuthenticationProcessingFilter facebookFilter = new OAuth2ClientAuthenticationProcessingFilter(path);
+        OAuth2RestTemplate facebookTemplate = new OAuth2RestTemplate(client.getClient(),oauth2ClientContext);
         facebookFilter.setRestTemplate(facebookTemplate);
-        facebookFilter.setTokenServices(new UserInfoTokenServices(
-                client.getResource().getUserInfoUri(), client.getClient().getClientId()));
+        UserInfoTokenServices userInfoTokenServices = new UserInfoTokenServices(client.getResource().getUserInfoUri(), client.getClient().getClientId());
+//        userInfoTokenServices.setAuthoritiesExtractor(authoritieExtractor());
+        facebookFilter.setTokenServices(userInfoTokenServices);
         return facebookFilter;
     }
+
+//    @Bean
+//    public AuthoritiesExtractor myAuthoritiesExtractor(){
+//        return map -> AuthorityUtils.commaSeparatedStringToAuthorityList("PERMISSION1,PERMISSION2,PERMISSION3");
+//    }
 
     private Filter csrfHeaderFilter() {
         return new OncePerRequestFilter() {
