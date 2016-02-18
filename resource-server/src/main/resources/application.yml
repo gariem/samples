@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8080}
+  port: ${PORT:9999}
   tomcat:
     remote_ip_header: x-forwarded-for
     protocol_header: x-forwarded-proto
@@ -10,31 +10,12 @@ management:
 
 spring:
   application:
-    name: testservice
-  security:
-    oauth2:
-      resource:
-        userInfoUri: https://sso.login.myorg.com/userinfo
-        preferTokenInfo: false
+    name: resources
 
-eureka:
-  instance:
-    hostname: ${vcap.application.uris[0]}
-    home-page-url: https://${eureka.instance.hostName}
-    status-page-url: https://${eureka.instance.hostname}${management.context-path}/info
-    health-check-url: https://${eureka.instance.hostname}${management.context-path}/health
-    leaseRenewalIntervalInSeconds: 10
-    metadataMap:
-      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
-    securePortEnabled: true
-    nonSecurePortEnabled: false
-  client:
-    serviceUrl:
-      defaultZone: ${vcap.services.service-registry.credentials.uri}/eureka/
-    region: default
-    registryFetchIntervalSeconds: 5
-    availabilityZones:
-      default: ${APPLICATION_DOMAIN:${DOMAIN:defaultZone}}
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://graph.facebook.com/me
 
 logging:
   level:

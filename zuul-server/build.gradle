@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+		maven { url 'http://repo.spring.io/milestone' }
         mavenCentral()
     }
     dependencies {
@@ -26,6 +27,7 @@ dependencyManagement {
 
 repositories {
     mavenCentral()
+	maven { url 'http://repo.spring.io/milestone' }
 }
 
 def junit = "4.11"
@@ -44,12 +46,7 @@ dependencies {
     compile("org.springframework.cloud:spring-cloud-starter-config")
     compile("org.springframework.cloud:spring-cloud-starter-zuul")
     compile("org.springframework.cloud:spring-cloud-starter-eureka")
-
-    //Cloud Foundry SSO Integration
-    compile "org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.0.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-core:1.2.0.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-starter-oauth2:1.0.3.RELEASE"
-    compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:1.1.0.RC1"
+    compile("org.springframework.cloud:spring-cloud-starter-oauth2")
 }
 task wrapper(type: Wrapper) {
     gradleVersion = '2.7'

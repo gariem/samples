@@ -28,10 +28,10 @@ import org.springframework.web.util.WebUtils;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableOAuth2Sso
-public class ZuukProxyApplication extends WebSecurityConfigurerAdapter {
+public class ZuulProxyApplication extends WebSecurityConfigurerAdapter {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZuukProxyApplication.class, args);
+        SpringApplication.run(ZuulProxyApplication.class, args);
     }
 
     @Override

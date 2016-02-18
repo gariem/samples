@@ -1,12 +1,12 @@
 ---
 applications:
-- name: testservice
-  host: testservice
+- name: resource
+  host: resource
   instances: 1
   memory: 1024M
   disk_quota: 1024M
   path: ./build/libs/resource-server-1.0-SNAPSHOT.jar
   #buildpack: java_buildpack_offline
   services:
-    - config-server
-    - service-registry
+    - config-service
+    - registry-service

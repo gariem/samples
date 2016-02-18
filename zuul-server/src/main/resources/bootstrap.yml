@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: edgezuul
-  cloud:
-    config:
-      uri: ${vcap.services.config-server.credentials.uri}
