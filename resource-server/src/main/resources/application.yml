@@ -12,10 +12,12 @@ spring:
   application:
     name: resources
 
+ssoServiceUrl: http://localhost:9000
+
 security:
   oauth2:
     resource:
-      userInfoUri: https://graph.facebook.com/me
+      userInfoUri: ${ssoServiceUrl}/me
 
 logging:
   level:

@@ -16,21 +16,22 @@ endpoints:
   restart:
     enabled: true
 
+ssoServiceUrl: http://localhost:9000
+
 security:
   ignored: /favicon.ico, /
   basic:
     enabled: false
+  user:
+    password: none
   oauth2:
     client:
-      clientId: 954284294627463
-      clientSecret: b06fa9a784f16b471ab567cfcffa23e3
-      accessTokenUri: https://graph.facebook.com/oauth/access_token
-      userAuthorizationUri: https://www.facebook.com/dialog/oauth
-      tokenName: oauth_token
-      authenticationScheme: query
-      clientAuthenticationScheme: form
+      clientId: acme
+      clientSecret: acmesecret
+      accessTokenUri: ${ssoServiceUrl}/oauth/token
+      userAuthorizationUri: ${ssoServiceUrl}/oauth/authorize
     resource:
-      userInfoUri: https://graph.facebook.com/me
+      userInfoUri: ${ssoServiceUrl}/me
 
 zuul:
   routes:

@@ -13,3 +13,11 @@ zuul-server/build/
 zuul-server/*.iml
 zuul-server/*.ipr
 zuul-server/*.iws
+
+oauth-server-social/.idea/
+oauth-server-social/.gradle/
+oauth-server-social/*.bat
+oauth-server-social/build/
+oauth-server-social/*.iml
+oauth-server-social/*.ipr
+oauth-server-social/*.iws
