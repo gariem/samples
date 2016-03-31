@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+management:
+  context-path: /management
+
+spring:
+  application:
+    name: products
