@@ -1,0 +1,23 @@
+server:
+  port: 8761
+
+management:
+  context-path: /management
+
+spring:
+  application:
+    name: eurekaserver
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+archaius:
+  deployment:
+    environment: Test
+    datacenter: Emilio's Laptop
