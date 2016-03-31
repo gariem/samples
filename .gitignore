@@ -39,3 +39,12 @@ warmilab-codeconf/eureka-server/build/
 warmilab-codeconf/eureka-server/*.iml
 warmilab-codeconf/eureka-server/*.ipr
 warmilab-codeconf/eureka-server/*.iws
+
+
+warmilab-codeconf/zuul-server/.idea/
+warmilab-codeconf/zuul-server/.gradle/
+warmilab-codeconf/zuul-server/*.bat
+warmilab-codeconf/zuul-server/build/
+warmilab-codeconf/zuul-server/*.iml
+warmilab-codeconf/zuul-server/*.ipr
+warmilab-codeconf/zuul-server/*.iws
