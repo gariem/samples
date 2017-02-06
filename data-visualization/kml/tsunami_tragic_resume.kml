@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="tsunami_tragic_resume_1" id="tsunami_tragic_resume_1">
+            <SimpleField type="string" name="location"/>
+            <SimpleField type="int" name="deaths"/>
+        </Schema>
+		<Style id="redLineBluePoly">
+		  <LineStyle>
+			<color>ff0000ff</color>
+			<width>1</width>
+		  </LineStyle>
+		  <PolyStyle>
+			<color>ff0000ff</color>
+		  </PolyStyle>
+		</Style>
+        <Folder>
+            <name>tsunami_tragic_resume</name>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e87">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">CRETE, GREECE</SimpleData>
+                        <SimpleData name="deaths">5000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>22.384141947566977,34.488513807606076 22.384141947566977,35.50827994116075 23.62354636450074,35.50827994116075 23.62354636450074,34.488513807606076 22.384141947566977,34.488513807606076</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>				
+			</Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e86">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SW. KYUSHU ISLAND, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1520</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>129.90207528051775,31.88844531709208 129.90207528051775,32.908644713166375 131.1046869951997,32.908644713166375 131.1046869951997,31.88844531709208 129.90207528051775,31.88844531709208</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e85">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SANRIKU, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>143.15605244761517,37.988602450993625 143.15605244761517,39.0077623261047 144.45308571691993,39.0077623261047 144.45308571691993,37.988602450993625 143.15605244761517,37.988602450993625</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e84">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NIIGATA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.46458040723755,36.98857795129489 137.46458040723755,38.0079133121481 138.74411642964864,38.0079133121481 138.74411642964864,36.98857795129489 137.46458040723755,36.98857795129489</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e83">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">OFF MASUDA, SHIMANE PREFECTURE, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1001</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>131.18560491420772,34.28850856330849 131.18560491420772,35.308308601364 132.42200802436082,35.308308601364 132.42200802436082,34.28850856330849 131.18560491420772,34.28850856330849</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e82">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">JUSANKO, TSUGARU AOMORI PREFECTURE, JAPAN</SimpleData>
+                        <SimpleData name="deaths">2600</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>138.83277919050096,40.488658964418995 138.83277919050096,41.507373965878124 140.17757357312558,41.507373965878124 140.17757357312558,40.488658964418995 138.83277919050096,40.488658964418995</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e81">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NANKAIDO, JAPAN</SimpleData>
+                        <SimpleData name="deaths">660</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>134.39813973421593,32.488461118786255 134.39813973421593,33.50856204354095 135.60882635411411,33.50856204354095 135.60882635411411,32.488461118786255 134.39813973421593,32.488461118786255</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e80">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">ENSHUNADA SEA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">31000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.4913141561386,33.48848750731025 137.4913141561386,34.50842224442686 138.71600446790296,34.50842224442686 138.71600446790296,33.48848750731025 137.4913141561386,33.48848750731025</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e7e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">CENTRAL CHILE, CHILE</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-73.63767591572886,-37.258024926680115 -73.63767591572886,-36.23855906523242 -72.3707047952811,-36.23855906523242 -72.3707047952811,-37.258024926680115 -73.63767591572886,-37.258024926680115</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e7d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SOUTHERN CHILE, CHILE</SimpleData>
+                        <SimpleData name="deaths">1300</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-73.86543540523341,-40.30756233097564 -73.86543540523341,-39.288632814486306 -72.54431325089135,-39.288632814486306 -72.54431325089135,-40.30756233097564 -73.86543540523341,-40.30756233097564</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e7c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">ISE BAY, JAPAN</SimpleData>
+                        <SimpleData name="deaths">8000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>136.184141947567,34.488513807606076 136.184141947567,35.50827994116075 137.42354636450074,35.50827994116075 137.42354636450074,34.488513807606076 136.184141947567,34.488513807606076</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e7b">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">BEPPU BAY, KYUSHU, JAPAN</SimpleData>
+                        <SimpleData name="deaths">708</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>131.0961274997036,32.78846903396859 131.0961274997036,33.80852036781056 132.310942624782,33.80852036781056 132.310942624782,32.78846903396859 131.0961274997036,32.78846903396859</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e7a">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">ENSHUNADA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1001</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.89476926465937,32.98847431288087 137.89476926465937,34.00849245811137 139.11237102812157,34.00849245811137 139.11237102812157,32.98847431288087 137.89476926465937,32.98847431288087</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e79">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NANKAIDO, JAPAN</SimpleData>
+                        <SimpleData name="deaths">5000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>134.29813973421588,32.488461118786255 134.29813973421588,33.50856204354095 135.50882635411415,33.50856204354095 135.50882635411415,32.488461118786255 134.29813973421588,32.488461118786255</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e78">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">BRISTOL CHANNEL, ENGLAND, UK</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-3.5056568681995737,50.98874105110735 -3.5056568681995737,52.005556295312594 -1.8762135765362276,52.005556295312594 -1.8762135765362276,50.98874105110735 -3.5056568681995737,50.98874105110735</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e77">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SANRIKU, JAPAN</SimpleData>
+                        <SimpleData name="deaths">5000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>143.8516270594096,38.48861434970794 143.8516270594096,39.50768590285137 145.1577407905421,39.50768590285137 145.1577407905421,38.48861434970794 143.8516270594096,38.48861434970794</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e76">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SE. HOKKAIDO ISLAND, JAPAN</SimpleData>
+                        <SimpleData name="deaths">700</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>140.00189078494859,41.55868042536452 140.00189078494859,42.57720292828681 141.36903690224796,42.57720292828681 141.36903690224796,41.55868042536452 140.00189078494859,41.55868042536452</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e75">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">BANDA SEA, INDONESIA</SimpleData>
+                        <SimpleData name="deaths">2244</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>127.24044348329198,-4.261407997579031 127.24044348329198,-3.2382886260085235 128.25896444527658,-3.2382886260085235 128.25896444527658,-4.261407997579031 127.24044348329198,-4.261407997579031</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e74">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">OFF SE. BOSO PENINSULA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">500</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>140.88414194756697,34.488513807606076 140.88414194756697,35.50827994116075 142.1235463645007,35.50827994116075 142.1235463645007,34.488513807606076 140.88414194756697,34.488513807606076</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e73">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">S. PERU, PERU</SimpleData>
+                        <SimpleData name="deaths">5000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-77.02363585978893,-14.010746004273754 -77.02363585978893,-12.988144608889675 -75.97858893548992,-12.988144608889675 -75.97858893548992,-14.010746004273754 -77.02363585978893,-14.010746004273754</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e72">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">PORT ROYAL, JAMAICA</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-77.23204413834901,17.28815938809243 -77.23204413834901,18.310358909852855 -76.16491811641605,18.310358909852855 -76.16491811641605,17.28815938809243 -77.23204413834901,17.28815938809243</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e70">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NAGASAKI PREFECTURE, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1001</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>129.10012219328345,32.188453211608504 129.10012219328345,33.20860349218957 130.30674128942005,33.20860349218957 130.30674128942005,32.188453211608504 129.10012219328345,32.188453211608504</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e6f">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">TSUSHIMA, NAGASAKI PREFECTURE, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>128.68990796850474,33.68849278019738 128.68990796850474,34.70839398356266 129.91748317904083,34.70839398356266 129.91748317904083,33.68849278019738 128.68990796850474,33.68849278019738</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e6e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">OFF SW BOSO PENINSULA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">5233</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>139.18633098929212,34.188505937559654 139.18633098929212,35.208322894100206 140.42124453657667,35.208322894100206 140.42124453657667,34.188505937559654 139.18633098929212,34.188505937559654</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e6d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">ENSHUNADA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.19061280314517,33.58849014428234 137.19061280314517,34.608408126505196 138.41674199627897,34.608408126505196 138.41674199627897,33.58849014428234 137.19061280314517,33.58849014428234</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e6c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NANKAIDO, JAPAN</SimpleData>
+                        <SimpleData name="deaths">5000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>134.19680157821261,32.688466394974654 134.19680157821261,33.708534284916816 135.41023370660469,33.708534284916816 135.41023370660469,32.688466394974654 134.19680157821261,32.688466394974654</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e6b">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">TAINAN, TAIWAN</SimpleData>
+                        <SimpleData name="deaths">2000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>119.65028959188236,22.488228293418945 119.65028959188236,23.50981661806942 120.75386289288483,23.50981661806942 120.75386289288483,22.488228293418945 119.65028959188236,22.488228293418945</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e69">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">W. HOKKAIDO ISLAND, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1467</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>138.69776431407868,40.98866923007391 138.69776431407868,42.007294405837385 140.05285264555317,42.007294405837385 140.05285264555317,40.98866923007391 138.69776431407868,40.98866923007391</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e68">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">CENTRAL PERU, PERU</SimpleData>
+                        <SimpleData name="deaths">4800</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-77.71842742837589,-12.506867848638283 -77.71842742837589,-11.484149911849183 -76.67953013242331,-11.484149911849183 -76.67953013242331,-12.506867848638283 -77.71842742837589,-12.506867848638283</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e67">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NW. HONSHU ISLAND, JAPAN</SimpleData>
+                        <SimpleData name="deaths">2100</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.46705747258744,36.688570443437925 137.46705747258744,37.70795812502829 138.7415114367445,37.70795812502829 138.7415114367445,36.688570443437925 137.46705747258744,36.688570443437925</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e66">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">LISBON, PORTUGAL</SimpleData>
+                        <SimpleData name="deaths">50000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-10.631311466522012,36.48856540286021 -10.631311466522012,37.50798787652833 -9.360203807770432,37.50798787652833 -9.360203807770432,36.48856540286021 -10.631311466522012,36.48856540286021</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e65">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SOUTH CHINA SEA, CHINA</SimpleData>
+                        <SimpleData name="deaths">10000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>112.69981407069206,22.608230437384627 112.69981407069206,23.629803177824186 113.80436629931151,23.629803177824186 113.80436629931151,22.608230437384627 112.69981407069206,22.608230437384627</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e64">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SANRIKU, JAPAN</SimpleData>
+                        <SimpleData name="deaths">1700</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>140.03376710488848,40.388656864200605 140.03376710488848,41.40738980168464 141.37653372791502,41.40738980168464 141.37653372791502,40.388656864200605 140.03376710488848,40.388656864200605</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e63">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">RYUKYU ISLANDS, JAPAN</SimpleData>
+                        <SimpleData name="deaths">13486</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>123.7462272493361,23.488246818504944 123.7462272493361,24.509703371539196 124.85816106801606,24.509703371539196 124.85816106801606,23.488246818504944 123.7462272493361,23.488246818504944</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e61">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">TAIWAN STRAIT, TAIWAN</SimpleData>
+                        <SimpleData name="deaths">40000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>119.94410981815902,23.98825662122374 119.94410981815902,25.009645693799875 121.06039946149576,25.009645693799875 121.06039946149576,23.98825662122374 119.94410981815902,23.98825662122374</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e60">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">MESSINA STRAITS, ITALY</SimpleData>
+                        <SimpleData name="deaths">1500</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>14.99150892626718,37.705595606942374 14.99150892626718,38.724805306597474 16.283501952879014,38.724805306597474 16.283501952879014,37.705595606942374 14.99150892626718,37.705595606942374</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5f">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SHIMABARA BAY, KYUSHU ISLAND, JAPAN</SimpleData>
+                        <SimpleData name="deaths">14524</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>129.69979383393766,32.238454528717334 129.69979383393766,33.2585965998757 130.90708665172457,33.2585965998757 130.90708665172457,32.238454528717334 129.69979383393766,32.238454528717334</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SANRIKU, JAPAN</SimpleData>
+                        <SimpleData name="deaths">720</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>143.35605244761513,37.988602450993625 143.35605244761513,39.0077623261047 144.65308571691992,39.0077623261047 144.65308571691992,37.988602450993625 143.35605244761513,37.988602450993625</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SW. SUMATRA, INDONESIA</SimpleData>
+                        <SimpleData name="deaths">300</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>98.49182280102832,-0.5105817833755867 98.49182280102832,0.5125817025793047 99.50817735629886,0.5125817025793047 99.50817735629886,-0.5105817833755867 98.49182280102832,-0.5105817833755867</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">BALI SEA, INDONESIA</SimpleData>
+                        <SimpleData name="deaths">1200</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>114.48622174417979,-8.511156769900964 114.48622174417979,-7.488193044001549 115.51249911092748,-7.488193044001549 115.51249911092748,-8.511156769900964 114.48622174417979,-8.511156769900964</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5b">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">FLORES SEA, INDONESIA</SimpleData>
+                        <SimpleData name="deaths">500</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>118.48747394942733,-7.511221093904318 118.48747394942733,-6.488210781032875 119.51141104721819,-6.488210781032875 119.51141104721819,-7.511221093904318 118.48747394942733,-7.511221093904318</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e5a">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">CAP-HAITIAN, HAITI</SimpleData>
+                        <SimpleData name="deaths">300</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-72.73801779848353,19.238179336978376 -72.73801779848353,20.260164862339415 -71.65854613023905,20.260164862339415 -71.65854613023905,19.238179336978376 -72.73801779848353,19.238179336978376</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e58">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">ENSHUNADA SEA, JAPAN</SimpleData>
+                        <SimpleData name="deaths">300</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>137.29131415613858,33.48848750731025 137.29131415613858,34.50842224442686 138.51600446790295,34.50842224442686 138.51600446790295,33.48848750731025 137.29131415613858,33.48848750731025</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e57">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">NANKAIDO, JAPAN</SimpleData>
+                        <SimpleData name="deaths">3000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>134.3974723179544,32.5884637565224 134.3974723179544,33.60854817683384 135.60952828854823,33.60854817683384 135.60952828854823,32.5884637565224 134.3974723179544,32.5884637565224</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="tsunami_tragic_resume.fid-5ac64b09_155bd9ebf9f_-7e56">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#tsunami_tragic_resume_1">
+                        <SimpleData name="location">SW. SUMATRA, INDONESIA</SimpleData>
+                        <SimpleData name="deaths">1105</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+				<styleUrl>#redLineBluePoly</styleUrl>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>96.9916671395094,-1.5115397705635167 96.9916671395094,-0.48837942576545856 98.00817549371769,-0.48837942576545856 98.00817549371769,-1.5115397705635167 96.9916671395094,-1.5115397705635167</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

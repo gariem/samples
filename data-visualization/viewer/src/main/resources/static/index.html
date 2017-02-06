@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volcano and Tsunami Data Visualization</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/keen-dashboards.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+</head>
+<body class="application" onload="initAll()">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-collapse collapse" style="padding-top: 15px; align-content: center">
+          <p style="color: silver; font-weight: bold; text-align: center;">Volcano and Tsunami Events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-sm-8">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Localization: Volcano Eruption = <img src="assets/img/volcano.png"> Tsunami = <img src="assets/img/tsunami.png">
+          </div>
+          <div class="chart-stage">
+            <div id="map"></div>
+          </div>
+          <div class="chart-notes">
+            Source: <a href="https://www.ngdc.noaa.gov/hazard/volcano.shtml">Volcano Data and Information</a> 
+            and <a href="https://www.ngdc.noaa.gov/hazard/tsu.shtml">Tsunami Data and Information</a> 
+            at <a href="https://www.ngdc.noaa.gov">NOAA</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+          <div class="chart-wrapper">
+              <div class="chart-title">
+                  Top Affected Countries
+              </div>
+              <div class="chart-stage">
+                  <svg class="chart" id="chart-top-countries"></svg>
+              </div>
+              <div class="chart-notes">
+                  Japan, USA and Indonesia have the highest number of Tsunami events.
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-sm-4">
+          <div class="chart-wrapper">
+              <div class="chart-title">
+                  Annual Lost in Million Dollars (Since 1970)
+              </div>
+              <div class="chart-stage">
+                  <div id="chart-perdidas"></div>
+              </div>
+              <div class="chart-notes">
+                  Tsunamis cause much more economic lost than volcano eruptions. Source: <a href="https://www.ngdc.noaa.gov">NOAA</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Developed Countries not Affected by Tsunamis
+          </div>
+          <div class="chart-stage">
+            <div id="chart-developed">
+                <br/>
+                <ul>
+                    <li>UNITED KINGDOM</li>
+                    <li>SAUDI ARABIA</li>
+                    <li>NETHERLANDS</li>
+                    <li>SLOVENIA</li>
+                    <li>ROMANIA</li>
+                    <li>FINLAND</li>
+                    <li>CZECH REP.</li>
+                    <li>AUSTRIA</li>
+                    <li>POLAND</li>
+                    <li>SLOVAKIA</li>
+                </ul>
+                <br/>
+                <br/>
+            </div>
+          </div>
+          <div class="chart-notes">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Not Developed Countries Affected by Tsunamis
+          </div>
+          <div class="chart-stage">
+            <div id="chart-nondev">
+                <br/>
+                <ul>
+                    <li>NEPAL</li>
+                    <li>VANUATU</li>
+                    <li>BANGLADESH</li>
+                    <li>ERITREA</li>
+                    <li>HAITI</li>
+                    <li>TOGO</li>
+                </ul>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+          </div>
+          <div class="chart-notes">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a> - Extended by <a href="https://github.com/raphsoft">Emilio Garcia</a></p>
+
+  </div>
+
+  <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="assets/lib/holderjs/holder.js"></script>
+  <script>
+    Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });
+  </script>
+
+  <script type="text/javascript" src="assets/lib/keen-js/dist/keen.min.js"></script>
+  <script type="text/javascript" src="assets/js/meta.js"></script>
+  <script type="text/javascript" src="keen.dashboard.js"></script>
+
+  <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
+  <script src="http://d3js.org/d3.v3.js"></script>
+  <script type="text/javascript" src="assets/js/functions.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfBr7jk5Ny8wbHLSOXo0oF-CSGDuOyWxE&signed_in=true&callback=initMap"></script>
+
+</body>
+</html>

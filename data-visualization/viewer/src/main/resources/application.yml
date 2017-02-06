@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+management:
+  context-path: /admin
+
+spring:
+  application:
+    name: dataview
+  datasource:
+    url: jdbc:postgresql://localhost:5432/volcanos
+    username: postgres
+    password: dcgmplc
