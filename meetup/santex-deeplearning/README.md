@@ -19,8 +19,8 @@ Download the data set directly from [Kaggle](https://www.kaggle.com/c/dogs-vs-ca
   source activate tf
 * Download tensorflow:
   [cpu only version](https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0rc0-cp35-cp35m-linux_x86_64.whl)
-  [gpu enabled version](https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0rc0-cp35-cp35m-linux_x86_64.whl)
-  check last version [here](https://www.tensorflow.org)
+  [gpu enabled version](https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0rc0-cp35-cp35m-linux_x86_64.whl). 
+  Check last version [here](https://www.tensorflow.org)
 * Upgrade setuptools:
   pip install --upgrade -I setuptools
 * Install tensorflow:
@@ -29,5 +29,5 @@ Download the data set directly from [Kaggle](https://www.kaggle.com/c/dogs-vs-ca
   pip install tflearn
 
 #####Follow me on twitter:
-@unindanachado
+[@unindanachado](https://twitter.com/unindanachado)
 
