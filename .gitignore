@@ -6,6 +6,7 @@
 **/*.ipr
 **/*.iws
 **/.DS_Store
+**/.ipynb_checkpoints
 meetup/santex-deeplearning/cats-dogs/data/
 meetup/santex-deeplearning/cats-dogs/saved/
 
