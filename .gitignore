@@ -7,3 +7,5 @@
 **/*.iws
 **/.DS_Store
 meetup/santex-deeplearning/cats-dogs/data/
+meetup/santex-deeplearning/cats-dogs/saved/
+
