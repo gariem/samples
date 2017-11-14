@@ -28,6 +28,6 @@ Download the data set directly from [Kaggle](https://www.kaggle.com/c/dogs-vs-ca
 * Install tflearn:
   pip install tflearn
 
-#####Follow me on twitter:
+##### Follow me on twitter:
 [@unindanachado](https://twitter.com/unindanachado)
 
