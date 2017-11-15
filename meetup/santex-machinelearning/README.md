@@ -1,4 +1,4 @@
-### Meetup: Machine Learning - Hands on Code
+### Machine Learning Hands on Code
 
 #### Environment Configuration (Python 3.6):
 - Download and install [Anaconda](https://www.anaconda.com/download/). Make sure it is registered in your PATH environment variable.
@@ -13,3 +13,8 @@
 
 #### Data:
 - Download the train and test files from the [Dogs vs. Cats problem in Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
+
+![Cats vs Dogs](woof_meow.jpg?raw=true "Cats vs Dogs")
+
+##### Follow me on twitter:
+[@unindanachado](https://twitter.com/unindanachado)
